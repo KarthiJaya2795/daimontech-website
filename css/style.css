@@ -5,33 +5,33 @@
 
 /* CSS Variables */
 :root {
-    /* Colors */
-    --primary-color: #6366f1;
-    --primary-light: #818cf8;
-    --primary-dark: #4f46e5;
-    --secondary-color: #06b6d4;
-    --accent-color: #f59e0b;
-    --success-color: #10b981;
-    --error-color: #ef4444;
-    
-    /* Glass Colors */
-    --glass-bg: rgba(255, 255, 255, 0.1);
-    --glass-bg-light: rgba(255, 255, 255, 0.15);
-    --glass-bg-dark: rgba(0, 0, 0, 0.1);
-    --glass-border: rgba(255, 255, 255, 0.2);
-    --glass-border-light: rgba(255, 255, 255, 0.3);
-    --glass-shadow: rgba(0, 0, 0, 0.1);
-    
-    /* Text Colors */
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.8);
-    --text-tertiary: rgba(255, 255, 255, 0.6);
-    --text-muted: rgba(255, 255, 255, 0.4);
-    
-    /* Background */
-    --bg-dark: #0a0a1a;
-    --bg-gradient-1: #1a1a3e;
-    --bg-gradient-2: #0f0f2d;
+/* Colors (Balanced White & Red Theme) */
+--primary-color: #D90429;      /* Main Red */
+--primary-light: #FDECEC;      /* Soft Red Tint */
+--primary-dark: #B3001B;       /* Dark Red */
+--secondary-color: #8B0000;    /* Deep Accent Red */
+--accent-color: #D90429;       
+--success-color: #D90429;      /* Unified brand red */
+--error-color: #B3001B;
+
+/* Glass Colors (Light Theme Friendly) */
+--glass-bg: rgba(255, 255, 255, 0.7);
+--glass-bg-light: rgba(255, 255, 255, 0.85);
+--glass-bg-dark: rgba(255, 255, 255, 0.5);
+--glass-border: rgba(217, 4, 41, 0.15);
+--glass-border-light: rgba(217, 4, 41, 0.25);
+--glass-shadow: rgba(0, 0, 0, 0.08);
+
+/* Text Colors (Dark Text for White Background) */
+--text-primary: #222222;
+--text-secondary: rgba(34, 34, 34, 0.75);
+--text-tertiary: rgba(34, 34, 34, 0.6);
+--text-muted: rgba(34, 34, 34, 0.45);
+
+/* Background (Clean White Base) */
+--bg-dark: #FFFFFF;
+--bg-gradient-1: #FDECEC;  /* Soft Red Background */
+--bg-gradient-2: #FFFFFF;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
